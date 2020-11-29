@@ -1,0 +1,41 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    main .main-button {
+        margin-top: 10px;
+        width: 190px;
+        height: 90px;
+    }
+
+    main .description {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    main .description {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    :root {
+        font-size: 11px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
